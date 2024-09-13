@@ -1,7 +1,7 @@
 # Stop-Watch
 <p>This is a simple stop watch application</p>
 
-<h1>Technologie</h1>
+<h1>Technologies</h1>
 
 <ul>
   <li>Html</li>
