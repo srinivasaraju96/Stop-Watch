@@ -3,26 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bmi Calculator</title>
+    <title>Stop Watch</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form action="">
-        <div class="bmi">
-            <label for="height">Height</label>
-            <input type="text" id="height" placeholder="Enter your height">
-        </div>
-        <div class="bmi">
-            <label for="weight">Weight</label>
-            <input type="text" id="weight" placeholder="Enter your weight">
-        </div>
-        <div id="bmi-id" class="bmi">
-            <button id="button">Calculate</button>
-        </div>
-        <div class="bmi">
-            <p id="result"></p>
-        </div>
-        <script src="index.js"></script>
-    </form>
+    <div class="countdown-class">
+        <p><span id="hours">00</span>h:<span id="minutes">00</span>m:<span id="seconds">00</span>s</p>
+        <button type="button" id="start">start</button>
+        <button type="button" id="stop">stop</button>
+        <button type="button" id="reset">reset</button>
+    </div>     
+    <script src="index.js"></script>
 </body>
 </html>
